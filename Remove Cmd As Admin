@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\Directory\shell\OpenElevatedCmd]
+
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\OpenElevatedCmd]
+
+[-HKEY_CLASSES_ROOT\Drive\shell\OpenElevatedCmd]
+
+[-HKEY_CLASSES_ROOT\LibraryFolder\background\shell\OpenElevatedCmd]
+
+[-HKEY_CLASSES_ROOT\LibraryFolder\background\shell\OpenElevatedCmd\command]
