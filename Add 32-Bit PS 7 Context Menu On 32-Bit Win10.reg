@@ -1,0 +1,41 @@
+﻿Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\PowerShell7x86]
+"MUIVerb"="&PowerShell 7 (x86)"
+"Icon"="C:\\Program Files\\PowerShell\\7\\assets\\Powershell_black.ico"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\PowerShell7x86"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\PowerShell7x86]
+"MUIVerb"="&PowerShell 7 (x86)"
+"Icon"="C:\\Program Files\\PowerShell\\7\\assets\\Powershell_black.ico"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\PowerShell7x86"
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\PowerShell7x86\shell\openpwsh]
+"MUIVerb"="Open &here"
+"Icon"="C:\\Program Files\\PowerShell\\7\\assets\\Powershell_black.ico"
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\PowerShell7x86\shell\openpwsh\command]
+@="C:\\Program Files\\PowerShell\\7\\pwsh.exe -NoExit -RemoveWorkingDirectoryTrailingCharacter -WorkingDirectory \"%V!\" -Command \"$host.UI.RawUI.WindowTitle = 'PowerShell 7 (x86)'\""
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\PowerShell7x86\shell\runas]
+"MUIVerb"="Open here as &Administrator"
+"Icon"="C:\\Program Files\\PowerShell\\7\\assets\\Powershell_black.ico"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\PowerShell7x86\shell\runas\command]
+@="C:\\Program Files\\PowerShell\\7\\pwsh.exe -NoExit -RemoveWorkingDirectoryTrailingCharacter -WorkingDirectory \"%V!\" -Command \"$host.UI.RawUI.WindowTitle = 'PowerShell 7 (x86)'\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\PowerShell7x86]
+"MUIVerb"="&PowerShell 7 (x86)"
+"Icon"="C:\\Program Files\\PowerShell\\7\\assets\\Powershell_black.ico"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\PowerShell7x86"
+
+[HKEY_CLASSES_ROOT\Drive\shell\PowerShell7x86]
+"MUIVerb"="&PowerShell 7 (x86)"
+"Icon"="C:\\Program Files\\PowerShell\\7\\assets\\Powershell_black.ico"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\PowerShell7x86"
+
+[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\PowerShell7x86]
+"MUIVerb"="&PowerShell 7 (x86)"
+"Icon"="C:\\Program Files\\PowerShell\\7\\assets\\Powershell_black.ico"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\PowerShell7x86"
